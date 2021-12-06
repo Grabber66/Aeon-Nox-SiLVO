@@ -46,7 +46,7 @@
 						<control type="label">
 							<width>auto</width>
 							<height>100</height>
-							<font>font60</font>
+							<font>font65</font>
 							<textcolor>$VAR[ThemeLabelColor]</textcolor>
 							<label>$INFO[VideoPlayer.ChannelNumberLabel]</label>
 							<scroll>true</scroll>
@@ -54,7 +54,7 @@
 						<control type="label">
 							<width>auto</width>
 							<height>100</height>
-							<font>font60</font>
+							<font>font65</font>
 							<textcolor>$VAR[ThemeLabelColor]</textcolor>
 							<label>$INFO[VideoPlayer.ChannelName]</label>
 							<scroll>true</scroll>
@@ -69,48 +69,39 @@
 						<texture colordiffuse="white">separator_horizontal.png</texture>
 					</control>
 					<!-- Media Flags -->
-					<control type="group">
-						<animation effect="slide" end="40" time="0" condition="!String.IsEqual(VideoPlayer.ChannelName,PVR.NowRecordingChannel)">Conditional</animation>
-						<left>1325</left>
+					<control type="grouplist">
+						<left>1365</left>
 						<top>15</top>
+						<orientation>horizontal</orientation>
+						<usecontrolcoords>true</usecontrolcoords>
 						<control type="image">
-							<left>10</left>
 							<width>100</width>
-							<height>80</height>
-							<aspectratio align="center" aligny="center">keep</aspectratio>
-							<texture>$VAR[MediaFlagsPathVar]/aspectratio/$INFO[VideoPlayer.VideoAspect,,.png]</texture>
-						</control>
-						<control type="image">
-							<left>100</left>
-							<width>100</width>
-							<height>80</height>
-							<aspectratio align="center" aligny="center">keep</aspectratio>
-							<texture>$VAR[MediaFlagsPathVar]/audiocodec/$VAR[PlayerAudioCodecFlagVar]</texture>
-						</control>
-						<control type="image">
-							<left>200</left>
-							<width>100</width>
-							<height>80</height>
-							<aspectratio align="center" aligny="center">keep</aspectratio>
-							<texture>$VAR[MediaFlagsPathVar]/audiochannels/$INFO[VideoPlayer.AudioChannels,,.png]</texture>
-						</control>
-						<control type="image">
-							<left>300</left>
-							<width>100</width>
-							<height>80</height>
-							<aspectratio align="center" aligny="center">keep</aspectratio>
+							<include>MediaFlagValues</include>
 							<texture>$VAR[MediaFlagsPathVar]/resolution/$INFO[VideoPlayer.VideoResolution,,.png]</texture>
 						</control>
 						<control type="image">
-							<left>400</left>
 							<width>100</width>
-							<height>80</height>
-							<aspectratio align="center" aligny="center">keep</aspectratio>
+							<include>MediaFlagValues</include>
 							<texture>$VAR[MediaFlagsPathVar]/videocodec/$VAR[VideoSourceFlagVar]</texture>
 						</control>
 						<control type="image">
-							<left>500</left>
-							<top>21</top>
+							<width>100</width>
+							<include>MediaFlagValues</include>
+							<texture>$VAR[MediaFlagsPathVar]/aspectratio/$INFO[VideoPlayer.VideoAspect,,.png]</texture>
+						</control>
+						<control type="image">
+							<width>100</width>
+							<include>MediaFlagValues</include>
+							<texture>$VAR[MediaFlagsPathVar]/audiocodec/$VAR[PlayerAudioCodecFlagVar]</texture>
+						</control>
+						<control type="image">
+							<width>100</width>
+							<include>MediaFlagValues</include>
+							<texture>$VAR[MediaFlagsPathVar]/audiochannels/$INFO[VideoPlayer.AudioChannels,,.png]</texture>
+						</control>
+						<control type="image">
+							<left>-15</left>
+							<top>-2</top>
 							<width>40</width>
 							<height>40</height>
 							<texture>new_pvr/icons/channels/record.png</texture>
@@ -126,11 +117,11 @@
 					<control type="grouplist">
 						<left>330</left>
 						<top>895</top>
-						<width>920</width>
+						<width>1050</width>
 						<itemgap>20</itemgap>
 						<orientation>horizontal</orientation>
 						<control type="label">
-							<width>150</width>
+							<width>110</width>
 							<height>38</height>
 							<font>font16</font>
 							<label>$INFO[VideoPlayer.StartTime]</label>
@@ -153,7 +144,8 @@
 						<font>font16</font>
 						<textcolor>white2</textcolor>
 						<align>right</align>
-						<label>$VAR[PlayerTimeRemainingAltVar,+,  ]$INFO[VideoPlayer.EndTime]</label>
+						<label>$INFO[VideoPlayer.EndTime]</label>
+						<!-- <label>$VAR[PlayerTimeRemainingAltVar,+,  ]$INFO[VideoPlayer.EndTime]</label> -->
 					</control>
 					<control type="group">
 						<left>330</left>
@@ -224,6 +216,24 @@
 							<midtexture colordiffuse="$VAR[ThemeLabelColor]">colors/white.png</midtexture>
 							<visible>Player.ChannelPreviewActive</visible>
 						</control>
+						<!-- NEEDS TESTING -->
+						<control type="ranges">
+							<width>1208</width>
+							<height>12</height>
+							<texturebg border="3" colordiffuse="00FFFFFF">colors/white50.png</texturebg>
+							<lefttexture>colors/white.png</lefttexture>
+							<midtexture colordiffuse="FFFF0000">colors/white.png</midtexture>
+							<righttexture>colors/white.png</righttexture>
+							<info>Player.Cutlist</info>
+						</control>
+						<control type="ranges">
+							<top>6</top>
+							<width>1208</width>
+							<height>6</height>
+							<texturebg border="3" colordiffuse="00FFFFFF">colors/white50.png</texturebg>
+							<righttexture>colors/white.png</righttexture>
+							<info>Player.Chapters</info>
+						</control>
 					</control>
 				</control>
 				<control type="group">
@@ -245,7 +255,7 @@
 					<top>875</top>
 					<!-- Yes Weather -->
 					<control type="group">
-						<visible>String.IsEmpty(Weather.IsFetched)</visible>
+						<visible>String.IsEmpty(Weather.IsFetched) + Skin.HasSetting(infobar_hideweatherinfo)</visible>
 						<control type="label">
 							<top>10</top>
 							<width>300</width>
@@ -253,9 +263,10 @@
 							<align>center</align>
 							<font>font24_bold</font>
 							<textcolor>$VAR[ThemeLabelColor]</textcolor>
-							<label>$INFO[System.Date]</label>
+							<label>$INFO[System.Date(dd.mm.yyyy)]</label>
 						</control>
 						<control type="label">
+							<visible>Skin.HasSetting(infobar_hideweatherinfo)</visible>
 							<top>40</top>
 							<width>300</width>
 							<height>30</height>
@@ -265,9 +276,9 @@
 							<label>$INFO[Weather.Temperature]$INFO[Weather.Conditions,  ,]</label>
 						</control>
 					</control>
-					<!-- No Weather -->
+					<!-- No Weather availible -->
 					<control type="group">
-						<visible>!String.IsEmpty(Weather.IsFetched)</visible>
+						<visible>!String.IsEmpty(Weather.IsFetched) + Skin.HasSetting(infobar_hideweatherinfo)</visible>
 						<control type="label">
 							<top>20</top>
 							<width>300</width>
@@ -275,16 +286,41 @@
 							<align>center</align>
 							<font>font24_bold</font>
 							<textcolor>$VAR[ThemeLabelColor]</textcolor>
-							<label>$INFO[System.Date]</label>
+							<label>$INFO[System.Date(dd.mm.yyyy)]</label>
 						</control>
 					</control>
 					<!-- Time -->
 					<control type="label">
+						<visible>Skin.HasSetting(infobar_hideweatherinfo)</visible>
 						<top>50</top>
 						<width>300</width>
 						<height>100</height>
 						<align>center</align>
-						<font>font60</font>
+						<font>font65</font>
+						<textcolor>white2</textcolor>
+						<label>$INFO[System.Time]</label>
+					</control>
+					<!-- No Weather selectet-->
+					<control type="group">
+						<visible>!Skin.HasSetting(infobar_hideweatherinfo)</visible>
+						<control type="label">
+							<top>20</top>
+							<width>300</width>
+							<height>30</height>
+							<align>center</align>
+							<font>font24_bold</font>
+							<textcolor>$VAR[ThemeLabelColor]</textcolor>
+							<label>$INFO[System.Date(dd.mm.yyyy)]</label>
+						</control>
+					</control>
+					<!-- Time -->
+					<control type="label">
+					<visible>!Skin.HasSetting(infobar_hideweatherinfo)</visible>
+						<top>50</top>
+						<width>300</width>
+						<height>100</height>
+						<align>center</align>
+						<font>font65</font>
 						<textcolor>white2</textcolor>
 						<label>$INFO[System.Time]</label>
 					</control>
@@ -771,7 +807,7 @@
 				<top>-60</top>
 				<width>2000</width>
 				<height>500</height>
-				<texture border="35">dialogs/default/bg2.png</texture>
+				<texture border="35">dialogs/default/bg.png</texture>
 			</control>
 			<control type="fixedlist" id="11">
 				<left>380</left>

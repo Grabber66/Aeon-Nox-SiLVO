@@ -170,6 +170,7 @@
 					<height>904</height>
 					<texture border="40">listpanel_back.png</texture>
 				</control>
+<!--
 				<control type="image">
 					<left>32</left>
 					<top>32</top>
@@ -179,6 +180,7 @@
 					<include>VisibleFadeAnimation</include>
 					<visible>!Player.HasVideo</visible>
 				</control>
+-->
 				<control type="group">
 					<visible>Player.HasVideo</visible>
 					<include>VisibleFadeAnimation</include>
@@ -951,7 +953,7 @@
 						<width>64</width>
 						<height>64</height>
 						<aspectratio>keep</aspectratio>
-						<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
+						<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItemOverlay]</texture>
 					</control>
 				</itemlayout>
 				<focusedlayout height="60" width="1140">
@@ -984,7 +986,7 @@
 						<width>64</width>
 						<height>64</height>
 						<aspectratio>keep</aspectratio>
-						<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
+						<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItemOverlay]</texture>
 					</control>
 				</focusedlayout>
 			</control>
@@ -1204,7 +1206,7 @@
 							<top>4</top>
 							<width>64</width>
 							<height>64</height>
-							<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
+							<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItemOverlay]</texture>
 						</control>
 					</control>
 					<control type="label">
@@ -1218,7 +1220,7 @@
 					</control>
 					<control type="label">
 						<right>16</right>
-						<top>58</top>
+						<top>68</top>
 						<width>790</width>
 						<height>60</height>
 						<font>font12</font>
@@ -1257,7 +1259,7 @@
 							<top>4</top>
 							<width>64</width>
 							<height>64</height>
-							<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
+							<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItemOverlay]</texture>
 						</control>
 					</control>
 					<control type="label">
@@ -1271,7 +1273,7 @@
 					</control>
 					<control type="label">
 						<right>16</right>
-						<top>58</top>
+						<top>68</top>
 						<width>790</width>
 						<height>60</height>
 						<font>font12</font>

@@ -135,6 +135,13 @@
 						<width>963</width>
 						<visible>!String.IsEqual(Skin.String(LiveTV.InfobarType),1)</visible>
 					</control>
+          <control type="radiobutton" id="3013">
+            <label>Wetterinfo</label>
+					  <onclick>Skin.ToggleSetting(infobar_hideweatherinfo)</onclick>
+					  <selected>Skin.HasSetting(infobar_hideweatherinfo)</selected>
+					  <width>963</width>
+					  <visible>!String.IsEqual(Skin.String(LiveTV.InfobarType),1)</visible>
+				  </control>
 					<!-- SIDEBLADE SETTINGS -->
 					<control type="label" id="202">
 						<width>963</width>
