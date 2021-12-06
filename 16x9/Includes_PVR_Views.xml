@@ -170,6 +170,7 @@
 					<height>904</height>
 					<texture border="40">listpanel_back.png</texture>
 				</control>
+<!--
 				<control type="image">
 					<left>32</left>
 					<top>32</top>
@@ -179,6 +180,7 @@
 					<include>VisibleFadeAnimation</include>
 					<visible>!Player.HasVideo</visible>
 				</control>
+-->
 				<control type="group">
 					<visible>Player.HasVideo</visible>
 					<include>VisibleFadeAnimation</include>
