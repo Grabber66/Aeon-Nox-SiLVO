@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-01-24 05:13+0000\n"
+"PO-Revision-Date: 2022-07-24 17:14+0000\n"
 "Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-aeon-nox-silvo/fi_fi/>\n"
 "Language: fi_fi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.13\n"
 
 msgctxt "#31000"
 msgid "Directed by"
@@ -27,7 +27,7 @@ msgstr "Käsikirjoitus"
 
 msgctxt "#31002"
 msgid "Blurred album thumb"
-msgstr "Sumennettu albumin näytekuva"
+msgstr "Sumennettu albumin pienoiskuva"
 
 msgctxt "#31003"
 msgid "Power Options"
@@ -51,7 +51,7 @@ msgstr "Muokkaus"
 
 msgctxt "#31008"
 msgid "Full screen"
-msgstr "Kokoruutu"
+msgstr "Koko ruutu"
 
 msgctxt "#31009"
 msgid "Total Duration"
@@ -179,7 +179,7 @@ msgstr "Toiminnot"
 
 msgctxt "#31040"
 msgid "Now Playing"
-msgstr "Nyt toistetaan"
+msgstr "Toistetaan parhaillaan"
 
 msgctxt "#31041"
 msgid "Select widget"
@@ -187,7 +187,7 @@ msgstr "Valitse widgetti"
 
 msgctxt "#31042"
 msgid "Show \"Now Playing\" information blended in the background"
-msgstr "Näytä \"Nyt Toistetaan\"-tiedot sulautettuna taustakuvaan"
+msgstr "Näytä \"Toistetaan parhaillaan\" -tiedot sulautettuna taustaan"
 
 msgctxt "#31043"
 msgid "Platform"
@@ -203,7 +203,7 @@ msgstr "Näkymät: Täysi juoni | Infoikkuna: Juonen pääpiirteet"
 
 msgctxt "#31046"
 msgid "SEEKING"
-msgstr "ETSITÄÄN"
+msgstr "SIIRRYTÄÄN"
 
 msgctxt "#31047"
 msgid "Set item icon"
@@ -219,11 +219,11 @@ msgstr "Valitse inforivi"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
-msgstr "Suunta: Nouseva"
+msgstr "Järjestys: Nouseva"
 
 msgctxt "#31051"
 msgid "Sort: Descending"
-msgstr "Suunta: Laskeva"
+msgstr "Järjestys: Laskeva"
 
 msgctxt "#31052"
 msgid "Movie library statistics"
@@ -231,7 +231,7 @@ msgstr "Elokuvakirjaston tilastot"
 
 msgctxt "#31053"
 msgid "TV Show library statistics"
-msgstr "Tv-sarjakirjaston tilastot"
+msgstr "Sarjakirjaston tilastot"
 
 msgctxt "#31054"
 msgid "Music library statistics"
@@ -271,7 +271,7 @@ msgstr "Satunnainen elokuvafanitaide"
 
 msgctxt "#31063"
 msgid "Random TV show fanart"
-msgstr "Satunnainen tv-sarjojen fanitaide"
+msgstr "Satunnainen sarjojen fanitaide"
 
 msgctxt "#31064"
 msgid "Random video fanart"
@@ -287,7 +287,7 @@ msgstr "Satunnainen fanitaide"
 
 msgctxt "#31067"
 msgid "Update rating"
-msgstr "Päivitä arvosana"
+msgstr "Päivitä arvio"
 
 msgctxt "#31068"
 msgid "CD Wall"
@@ -323,7 +323,7 @@ msgstr "Ei lisäominaisuuksia tarjolla"
 
 msgctxt "#31076"
 msgid "Landscape"
-msgstr "Vaakakuva"
+msgstr "Landscape"
 
 msgctxt "#31077"
 msgid "ShowCase"
@@ -399,7 +399,7 @@ msgstr "Listanäkymän asettelu"
 
 msgctxt "#31095"
 msgid "Slim List"
-msgstr "Matala lista"
+msgstr "Tiivis lista"
 
 msgctxt "#31096"
 msgid "Concert locations"
@@ -411,7 +411,7 @@ msgstr "Elokuvien toistolistatilastot"
 
 msgctxt "#31098"
 msgid "TV Show playlist statistics"
-msgstr "Tv-sarjojen toistolistatilastot"
+msgstr "Sarjojen toistolistatilastot"
 
 msgctxt "#31099"
 msgid "Musicvideo playlist statistics"
@@ -459,7 +459,7 @@ msgstr "Katsomattomien jaksojen määrä"
 
 msgctxt "#31110"
 msgid "Colorbox Script provides the blurred images for the Music and Video info dialogs as well as the fullscreen music blurred background."
-msgstr ""
+msgstr "Colorbox-skripti luo sumennetut kuvat musiikin ja videoiden tietonäyttöihin sekä kokoruudun musiikkitoiston taustalle."
 
 msgctxt "#31111"
 msgid "Similar movies"
@@ -475,11 +475,11 @@ msgstr "Elokuvat jotka on käsikirjoittanut"
 
 msgctxt "#31114"
 msgid "More from"
-msgstr ""
+msgstr "Lisää"
 
 msgctxt "#31115"
 msgid "Similar TV shows"
-msgstr "Samankaltaisia tv-sarjoja"
+msgstr "Samankaltaisia sarjoja"
 
 msgctxt "#31116"
 msgid "cycle fanart"
@@ -515,11 +515,11 @@ msgstr "Albumin arvostelu"
 
 msgctxt "#31124"
 msgid "Show Background \"Now Playing\" Video"
-msgstr "Näytä taustalla \"Nyt katsellaan\"-video"
+msgstr "Näytä toistettava video taustalla"
 
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualisation"
-msgstr "Näytä taustalla \"Nyt toistetaan\"-visualisointi"
+msgstr "Näytä visualisointi taustalla"
 
 msgctxt "#31126"
 msgid "Skin Helper Service adds extra information for the skin to display that is not normally available in Kodi."
@@ -575,7 +575,7 @@ msgstr "Piilota virittimen tiedot"
 
 msgctxt "#31139"
 msgid "Hide signal information"
-msgstr "Piilota signaalitiedot"
+msgstr "Piilota signaalin tiedot"
 
 msgctxt "#31140"
 msgid "Sideblade Options"
@@ -587,15 +587,15 @@ msgstr "Piilota ohjelmaopas"
 
 msgctxt "#31142"
 msgid "Settings level"
-msgstr "Asetustaso"
+msgstr "Asetusten laajuus"
 
 msgctxt "#31143"
 msgid "Hide Recordings"
-msgstr "Piilota tallennukset"
+msgstr "Piilota tallenteet"
 
 msgctxt "#31144"
 msgid "Hide Timer"
-msgstr "Piilota ajastukset"
+msgstr "Piilota ajastus"
 
 msgctxt "#31145"
 msgid "Hide Search"
@@ -603,11 +603,11 @@ msgstr "Piilota haku"
 
 msgctxt "#31146"
 msgid "Rated"
-msgstr "Arvosana"
+msgstr "Sisältöluokitus"
 
 msgctxt "#31147"
 msgid "Change rating"
-msgstr "Muuta arvostelua"
+msgstr "Muuta arviota"
 
 msgctxt "#31148"
 msgid "List local library items"
@@ -619,7 +619,7 @@ msgstr "TMDb:stä löydetyt tiedot"
 
 msgctxt "#31150"
 msgid "IMDb logo"
-msgstr "IMDb logo"
+msgstr "IMDb-logo"
 
 msgctxt "#31151"
 msgid "View settings"
@@ -631,7 +631,7 @@ msgstr "Juliste"
 
 msgctxt "#31153"
 msgid "Disable views"
-msgstr "Piilota näkymiä"
+msgstr "Poista näkymiä käytöstä"
 
 msgctxt "#31154"
 msgid "Show Artist Slideshow when playing music"
@@ -655,7 +655,7 @@ msgstr "Piilota hakukuvake"
 
 msgctxt "#31159"
 msgid "Event log"
-msgstr "Tapahtuma historia"
+msgstr "Tapahtumaloki"
 
 msgctxt "#31160"
 msgid "Extended"
@@ -663,7 +663,7 @@ msgstr "Laajennettu"
 
 msgctxt "#31161"
 msgid "Choose the position of the RSS feed. Top of the screen, bottom of the screen or the default location directly underneath the main menu."
-msgstr "Valitse RSS-syötteen sijainti. Yläreuna, alareuna tai oletusasetus suoraan päävalikon alapuolella"
+msgstr "Valitse RSS-syötteen sijainti. Ruudun ylä-/alareunassa tai oletussijainnissa heti päävalikon alapuolella."
 
 msgctxt "#31162"
 msgid "Alternate"
@@ -671,7 +671,7 @@ msgstr "Vaihtoehtoinen"
 
 msgctxt "#31163"
 msgid "This movie is Unrated"
-msgstr "Tätä elokuvaa ei ole ikäluokiteltu"
+msgstr "Elokuvalla ei ole sisältöluokitusta"
 
 msgctxt "#31164"
 msgid "Enable live background for movie sets"
@@ -679,7 +679,7 @@ msgstr "Käytä animoituja taustakuvia elokuvaryhmien kanssa"
 
 msgctxt "#31165"
 msgid "Enable to display live background for movie sets when browsing your movie library"
-msgstr "Näyttää animoidun taustakuvan elokuvakirjaston elokuvaryhmiä selatessa."
+msgstr "Käytä animoituja elokuvaryhmien taustoja elokuvakirjastoa selattaessa."
 
 msgctxt "#31166"
 msgid "Enable description for a movies rating"
@@ -687,7 +687,7 @@ msgstr "Näytä lisätietoja elokuvan arvosanasta"
 
 msgctxt "#31167"
 msgid "This setting displays a reason for a movies rating. You need to use a script like Rating Update to add these values (prefix must be Rated  including a space after Rated)"
-msgstr "Näyttää syyn elokuvan saamalle arvosanalle. Tarvitset Rating Update -skriptin, jotta asetus toimisi (arvosanan edessä on oltava sana Rated ja välilyönti)."
+msgstr "Näyttää elokuvan ikäluokituksen syyn. Tarvitset näiden arvojen lisäykseen lisäosan, kuten Rating Update, (etuliitteen tulee olla \"Ikäluokitus \", välilyönti mukaan lukien)."
 
 msgctxt "#31168"
 msgid "Enable to make the submenu permanently visible. Default is hidden until pressing down."
@@ -703,7 +703,7 @@ msgstr "Piilottaa kirjaston selaamisen yhteydessä näytettävän alkukirjaimen 
 
 msgctxt "#31171"
 msgid "This setting will activate fullscreen mode automatically after starting to play music."
-msgstr "Aloittaa musiikkitoiston automaattisesti kokoruututilassa."
+msgstr "Vaihtaa automaattisesti koko ruutuun musiikkitoiston alkaessa."
 
 msgctxt "#31172"
 msgid "Set the path to your music collection for displaying artist logos in the music visualisation and in some views that support it."
@@ -711,11 +711,11 @@ msgstr "Aseta musiikkikokoelmasi sijainti esittäjien logojen näyttämiseksi mu
 
 msgctxt "#31173"
 msgid "Blur background (video info dialog)"
-msgstr "Sumennettu tausta (videotietojen valikko)"
+msgstr "Sumenna tausta (videotietojen näyttö)"
 
 msgctxt "#31174"
 msgid "Blur background behind information"
-msgstr "Sumenna taustakuvaa tietoja näytettäessä"
+msgstr "Sumenna tietojen takana näkyvä tausta"
 
 msgctxt "#31175"
 msgid "Set path to music collection/artwork (for artist logos)"
@@ -723,7 +723,7 @@ msgstr "Aseta musiikkikuvien polku (esittäjän logot)"
 
 msgctxt "#31176"
 msgid "Trending Movies"
-msgstr "Suositut elokuvat"
+msgstr "Elokuvanousijat"
 
 msgctxt "#31177"
 msgid "Top Rentals"
@@ -731,11 +731,11 @@ msgstr "Vuokratuimmat"
 
 msgctxt "#31178"
 msgid "Trending Shows"
-msgstr "Suositut tv-sarjat"
+msgstr "Sarjanousijat"
 
 msgctxt "#31179"
 msgid "Live TV settings"
-msgstr "Tv-lähetyksen asetukset"
+msgstr "Televisiolähetyksen asetukset"
 
 msgctxt "#31180"
 msgid "Minutes left"
@@ -815,7 +815,7 @@ msgstr "Tämä asetus määrittää koteloiden ulkonäön, kun animoidut taustak
 
 msgctxt "#31199"
 msgid "Used to select the default/fallback image skin wide"
-msgstr "Määrittää kaikissa valikoissa käytettävän oletus/varataustakuvan."
+msgstr "Määrittää ulkoasussa yleisesti käytettävän oletus-/varakuvan."
 
 msgctxt "#31200"
 msgid "The Image Resource Select Add-on is used to choose a Kodi resource image pack similiar to weather artwork and icons."
@@ -831,7 +831,7 @@ msgstr "Näytä toistettavan videon jäljellä oleva aika infonappia painettaess
 
 msgctxt "#31203"
 msgid "In Theaters"
-msgstr "Elokuvateattereissa"
+msgstr "Teattereissa"
 
 msgctxt "#31204"
 msgid "ComingSoon"
@@ -839,11 +839,11 @@ msgstr "TulossaPian"
 
 msgctxt "#31205"
 msgid "Lyrics Source"
-msgstr "Sanoitusten lähde"
+msgstr "Sanoituslähde"
 
 msgctxt "#31206"
 msgid "Opening This Week"
-msgstr "Ensi-illassa tällä viikolla"
+msgstr "Kuluvan viikon ensi-illat"
 
 msgctxt "#31207"
 msgid "Upcoming"
@@ -855,55 +855,55 @@ msgstr "Kassamagneetit"
 
 msgctxt "#31209"
 msgid "In Cinemas"
-msgstr "Teatterissa"
+msgstr "Teattereissa"
 
 msgctxt "#31210"
 msgid "Popular Movies"
-msgstr "Suosittuja Elokuvia"
+msgstr "Suositut elokuvat"
 
 msgctxt "#31211"
 msgid "Top Rated Movies"
-msgstr "Elokuvien arvostelumenestykset"
+msgstr "Parhaiten arvioidut elokuvat"
 
 msgctxt "#31212"
 msgid "Popular TV"
-msgstr "Suositut tv-sarjat"
+msgstr "Suositut sarjat"
 
 msgctxt "#31213"
 msgid "Top Rated TV"
-msgstr "Tv-sarjojen arvostelumenestykset"
+msgstr "Parhaiten arvioidut sarjat"
 
 msgctxt "#31214"
 msgid "Currently Airing TV"
-msgstr "Tällä hetkellä tv:ssä"
+msgstr "Esityksessä olevat sarjat"
 
 msgctxt "#31215"
 msgid "TV Airing Today"
-msgstr "Tänään esitettävät tv-sarjat"
+msgstr "Tänään esitettävät sarjat"
 
 msgctxt "#31216"
 msgid "Longer details"
-msgstr ""
+msgstr "Pidemmät tiedot"
 
 msgctxt "#31217"
 msgid "Single logo"
-msgstr ""
+msgstr "Yksittäinen logo"
 
 msgctxt "#31218"
 msgid "Use vinyl record instead of blank CD for disc fallback"
-msgstr ""
+msgstr "Käytä varmistuksena tyhjän CD-levyn sijaan vinyylilevyä"
 
 msgctxt "#31219"
 msgid "Language flags"
-msgstr ""
+msgstr "Kielitunnisteet"
 
 msgctxt "#31220"
 msgid "RSS Feed"
-msgstr ""
+msgstr "RSS-syöte"
 
 msgctxt "#31221"
 msgid "Big"
-msgstr "Iso"
+msgstr "Suuri"
 
 msgctxt "#31222"
 msgid "Mini"
@@ -911,11 +911,11 @@ msgstr "Mini"
 
 msgctxt "#31223"
 msgid "Raleway"
-msgstr ""
+msgstr "Raleway"
 
 msgctxt "#31224"
 msgid "Seekbar time display"
-msgstr "Hakupalkin ajan näyttötapa"
+msgstr "Toistopalkissa näytettävä aika"
 
 msgctxt "#31225"
 msgid "Time remaining label"
@@ -955,7 +955,7 @@ msgstr "Piilota kuvat"
 
 msgctxt "#31234"
 msgid "Next aired"
-msgstr "Seuraavat esitysajat"
+msgstr "Seuraava esitys"
 
 msgctxt "#31235"
 msgid "Slide Left"
@@ -967,7 +967,7 @@ msgstr "Liu'uta oikealle"
 
 msgctxt "#31237"
 msgid "Cache tv extrafanart"
-msgstr "Siirrä tv-sarjojen lisäfanitaide välimuistiin"
+msgstr "Tallenna sarjojen lisäfanitaide välimuistiin"
 
 msgctxt "#31238"
 msgid "SongList"
@@ -1039,7 +1039,7 @@ msgstr "Pienemmät julisteet"
 
 msgctxt "#31255"
 msgid "Mediaflags"
-msgstr "Mediakuvakkeet"
+msgstr "Mediatunnisteet"
 
 msgctxt "#31256"
 msgid "Brochure"
@@ -1051,7 +1051,7 @@ msgstr "Elokuvaryhmien nimet"
 
 msgctxt "#31258"
 msgid "Blur background (extended info dialog)"
-msgstr ""
+msgstr "Sumenna tausta (laaja tietonäyttö)"
 
 msgctxt "#31259"
 msgid "Center"
@@ -1059,7 +1059,7 @@ msgstr "Keskellä"
 
 msgctxt "#31260"
 msgid "Set background rotation speed"
-msgstr "Aseta taustakuvien vaihtonopeus"
+msgstr "Määritä taustan vaihtonopeus"
 
 msgctxt "#31261"
 msgid "Choose the position of the RSS feed. Top of the screen or bottom of the screen."
@@ -1103,7 +1103,7 @@ msgstr "Lisää CouchPotatoon"
 
 msgctxt "#31271"
 msgid "Click for more"
-msgstr ""
+msgstr "Painamalla lisää"
 
 msgctxt "#31272"
 msgid "Awards"
@@ -1115,7 +1115,7 @@ msgstr ""
 
 msgctxt "#31274"
 msgid "Artwork"
-msgstr "Kuvat"
+msgstr "Mediakuvitukset"
 
 msgctxt "#31275"
 msgid "Case"
@@ -1243,7 +1243,7 @@ msgstr "Katsomaton jakso"
 
 msgctxt "#31306"
 msgid "Customize colors"
-msgstr "Muokkaa värejä..."
+msgstr "Mukauta värejä"
 
 msgctxt "#31307"
 msgid "Hide Fanart"
@@ -1299,7 +1299,7 @@ msgstr "Uusien päivitysten vuoksi [B]SUOSITTELEMME[/B] päävalikon oletusasetu
 
 msgctxt "#31320"
 msgid "Last Logged In"
-msgstr "Viimeksi kirjauduttu"
+msgstr "Viimeksi kirjautunut"
 
 msgctxt "#31321"
 msgid "Karaoke Song Selector"
@@ -1347,7 +1347,7 @@ msgstr "Asennetut"
 
 msgctxt "#31332"
 msgid "Not Installed or Disabled"
-msgstr ""
+msgstr "Ei asennettu tai poistettu käytöstä"
 
 msgctxt "#31333"
 msgid "The default behavior is to display Music information for 10 seconds after a song is played or the next track in your queue begins. To display permanently reactivate the info and do not toggle it off a second time."
@@ -1355,7 +1355,7 @@ msgstr "Oletuksena musiikkitiedot näytetään 10 sekunnin ajan kappaleen päät
 
 msgctxt "#31334"
 msgid "Required"
-msgstr "Vaadittu"
+msgstr "Vaaditut"
 
 msgctxt "#31335"
 msgid "Recommended"
@@ -1363,7 +1363,7 @@ msgstr "Suositellut"
 
 msgctxt "#31336"
 msgid "Optional"
-msgstr "Valinnainen"
+msgstr "Valinnaiset"
 
 msgctxt "#31337"
 msgid "Install or change settings of supported add-ons"
@@ -1371,11 +1371,11 @@ msgstr ""
 
 msgctxt "#31338"
 msgid "Enable or disable system debug logging"
-msgstr "Käytä tai ota pois käytöstä järjestelmän virheenkorjaustiedot."
+msgstr "Käytä järjestelmän vianselvitystietoja tai poista ne käytöstä"
 
 msgctxt "#31339"
 msgid "Enable or disable skin debug info"
-msgstr "Käytä tai ota pois käytöstä ulkoasun virheenkorjaustiedot."
+msgstr "Käytä ulkoasun vianselvitystietoja tai poista ne käytöstä"
 
 msgctxt "#31340"
 msgid "Color customization"
@@ -1391,7 +1391,7 @@ msgstr ""
 
 msgctxt "#31343"
 msgid "Display background name"
-msgstr "Näytä nimi taustalla"
+msgstr "Näytä taustan nimi"
 
 msgctxt "#31344"
 msgid "Display title of movie/tvshow/artist on home screen if the background has a fanart slideshow as background."
@@ -1415,11 +1415,11 @@ msgstr "Himmeämpi"
 
 msgctxt "#31349"
 msgid "Left"
-msgstr "Vasen"
+msgstr "Vasemmalle"
 
 msgctxt "#31350"
 msgid "Right"
-msgstr "Oikea"
+msgstr "Oikealle"
 
 msgctxt "#31351"
 msgid "Enable Netflix style pause screen popup"
@@ -1427,7 +1427,7 @@ msgstr ""
 
 msgctxt "#31352"
 msgid "Inactive"
-msgstr ""
+msgstr "Ei käytössä"
 
 msgctxt "#31353"
 msgid "Shows an overview of the movie or episode 5 seconds after the video is paused."
@@ -1471,11 +1471,11 @@ msgstr "Vain nimi"
 
 msgctxt "#31363"
 msgid "No Guide"
-msgstr ""
+msgstr "Ei opasta"
 
 msgctxt "#31364"
 msgid "Timeshift"
-msgstr ""
+msgstr "Ajansiirto"
 
 msgctxt "#31365"
 msgid "Customization"
@@ -1671,7 +1671,7 @@ msgstr "Valitse osio"
 
 msgctxt "#31413"
 msgid "Local subtitle available"
-msgstr "Paikallisia tekstityksiä saatavilla"
+msgstr "Paikallinen tekstitys on käytettävissä"
 
 msgctxt "#31414"
 msgid "Set the Main Theme color used throughout the skin."
@@ -1703,7 +1703,7 @@ msgstr ""
 
 msgctxt "#31421"
 msgid "Select your Kodi user profile[CR]to login and continue"
-msgstr "Valitse Kodi käyttäjäprofiilisi[CR]kirjautuaksesi ja jatkaaksesi"
+msgstr "Jatka kirjatumalla[CR]Kodi-käyttäjäprofiilillesi"
 
 msgctxt "#31422"
 msgid "Customize the Widget Highlight color on the home screen."
@@ -1723,7 +1723,7 @@ msgstr ""
 
 msgctxt "#31426"
 msgid "Enter text here..."
-msgstr "Kirjoita tähän..."
+msgstr "Syötä teksti tähän..."
 
 msgctxt "#31427"
 msgid "Skin Shortcuts is responsible for handeling all aspects of the main menu."
@@ -1819,7 +1819,7 @@ msgstr "Tallenna & Poistu"
 
 msgctxt "#31450"
 msgid "  •  Open Settings "
-msgstr "• Avaa asetukset"
+msgstr "  • Avaa asetukset "
 
 msgctxt "#31451"
 msgid "  •  Click to Install or Enable"
@@ -1883,7 +1883,7 @@ msgstr ""
 
 msgctxt "#31466"
 msgid "Press [B]LEFT[/B] to show Plot[CR]Press [B]RIGHT[/B] to show Cast.[CR]Use [B]UP[/B] or [B]DOWN[/B] to scroll."
-msgstr ""
+msgstr "Näytä juoni painamalla [B]VASEMMALLE[/B][CR]Näytä näyttelijät painamalla [B]OIKEALLE[/B].[CR]Vieritä painamalla [B]YLÖS[/B] tai [B]ALAS[/B]."
 
 msgctxt "#31467"
 msgid "This will disable the TopBar completely and ignore all on/off view settings."
@@ -1891,7 +1891,7 @@ msgstr ""
 
 msgctxt "#31468"
 msgid "Restore"
-msgstr ""
+msgstr "Palauta"
 
 msgctxt "#31469"
 msgid "Disable the TopBar"
@@ -1959,7 +1959,7 @@ msgstr ""
 
 msgctxt "#31485"
 msgid "Eject disc"
-msgstr ""
+msgstr "Poista levy"
 
 msgctxt "#31486"
 msgid "Use Video Lyrics mod"
@@ -1975,7 +1975,7 @@ msgstr ""
 
 msgctxt "#31489"
 msgid "Hide episode thumb when hiding plot for unwatched items"
-msgstr ""
+msgstr "Piilota myös jakson pienoiskuva, kun piilotetaan katsomattomien kohteiden juoni"
 
 msgctxt "#31490"
 msgid "[B]CONFIGURE CoreELEC SETTINGS[/B][CR]Setup system option · Manage network[CR]Configure services · About CoreELEC"
@@ -1983,7 +1983,7 @@ msgstr ""
 
 msgctxt "#31491"
 msgid "Muted"
-msgstr ""
+msgstr "Mykistetty"
 
 msgctxt "#31492"
 msgid "The metadata and artwork module provides both metadata and artwork from sites like TMDB, musicbrainz and fanart.tv. It has settings used for the Skin Helper scripts."
@@ -2019,7 +2019,7 @@ msgstr ""
 
 msgctxt "#31500"
 msgid "This will set the music discart fallback to display a vinyl record instead of a blank CD."
-msgstr ""
+msgstr "Tämä varmistaa musiikin levyetiketin vinyylilevyllä tyhjän CD-levyn sijaan."
 
 msgctxt "#31501"
 msgid "Channel group"
@@ -2027,7 +2027,7 @@ msgstr "Kanavaryhmä"
 
 msgctxt "#31502"
 msgid "Live TV"
-msgstr "TV"
+msgstr "Televisio"
 
 msgctxt "#31503"
 msgid "Add Group"
@@ -2035,7 +2035,7 @@ msgstr "Lisää ryhmä"
 
 msgctxt "#31504"
 msgid "Rename Group"
-msgstr "Muuta ryhmän nimeä"
+msgstr "Nimeä ryhmä uudelleen"
 
 msgctxt "#31505"
 msgid "Delete Group"
@@ -2079,7 +2079,7 @@ msgstr ""
 
 msgctxt "#31515"
 msgid "Enable language flags for subtitles, audio language or both to the mediaflags. Note that some views will not display them"
-msgstr ""
+msgstr "Näytä tekstitys- ja ääniraitojen kielten lippukuvakkeet mediatunnisteissa. Huomoi, että nämä eivät näy kaikissa näkymissä"
 
 msgctxt "#31516"
 msgid "Disable this to show a simplified display of lyrics instead of the default \"Karaoke\" style"
@@ -2095,7 +2095,7 @@ msgstr ""
 
 msgctxt "#31519"
 msgid "Party mode (Music videos)"
-msgstr ""
+msgstr "Jukeboksi (musiikkivideot)"
 
 msgctxt "#31520"
 msgid "Movies in set"
@@ -2123,31 +2123,31 @@ msgstr ""
 
 msgctxt "#31526"
 msgid "Building Menu"
-msgstr ""
+msgstr "Rakennetaan valikkoa"
 
 msgctxt "#31527"
 msgid "Please wait"
-msgstr ""
+msgstr "Odota"
 
 msgctxt "#31528"
 msgid "PVR stream"
-msgstr ""
+msgstr "PVR-virta"
 
 msgctxt "#31529"
 msgid "Properties"
-msgstr ""
+msgstr "Ominaisuudet"
 
 msgctxt "#31530"
 msgid "Common"
-msgstr ""
+msgstr "Yleinen"
 
 msgctxt "#31531"
 msgid "Commands"
-msgstr ""
+msgstr "Komennot"
 
 msgctxt "#31532"
 msgid "Recently added TV Shows"
-msgstr ""
+msgstr "Viimeksi lisätyt sarjat"
 
 msgctxt "#31533"
 msgid "Unwatched movies"
@@ -2155,11 +2155,11 @@ msgstr "Katsomattomat elokuvat"
 
 msgctxt "#31534"
 msgid "Best picture winners"
-msgstr ""
+msgstr "Paras elokuva -voittajat"
 
 msgctxt "#31535"
 msgid "Unwatched TV Shows"
-msgstr ""
+msgstr "Katsomattomat sarjat"
 
 msgctxt "#31536"
 msgid "Recent recordings"
@@ -2167,19 +2167,19 @@ msgstr "Viimeksi tallennetut"
 
 msgctxt "#31537"
 msgid "System & Weather"
-msgstr ""
+msgstr "Järjestelmä ja sää"
 
 msgctxt "#31538"
 msgid "Mixed Media"
-msgstr ""
+msgstr "Sekalainen media"
 
 msgctxt "#31539"
 msgid "Random TV Shows"
-msgstr ""
+msgstr "Satunnaiset sarjat"
 
 msgctxt "#31540"
 msgid "Unwatched episodes"
-msgstr ""
+msgstr "Katsomattomat jaksot"
 
 msgctxt "#31541"
 msgid "Prefer movie set summary"
@@ -2191,11 +2191,11 @@ msgstr ""
 
 msgctxt "#31543"
 msgid "Hide channel name"
-msgstr ""
+msgstr "Piilota kanavan nimi"
 
 msgctxt "#31544"
 msgid "Years old"
-msgstr ""
+msgstr "Vuotta vanha"
 
 msgctxt "#31545"
 msgid "More tv shows featuring"
@@ -2203,11 +2203,11 @@ msgstr ""
 
 msgctxt "#31546"
 msgid "Known for"
-msgstr ""
+msgstr "Tunnetaan"
 
 msgctxt "#31547"
 msgid "Image gallery"
-msgstr ""
+msgstr "Kuvagalleria"
 
 msgctxt "#31548"
 msgid "Kodi random movie fanart"
@@ -2243,7 +2243,7 @@ msgstr ""
 
 msgctxt "#31556"
 msgid "Choose the submenu items displayed below your menu for Horizontal or in the left slide out submenu for the Vertical menu."
-msgstr ""
+msgstr "Valitse vaakavalikon alapuolella tai pystyvalikon vasemmalla puolella olevassa liukuvalikossa näytettävän alivalikon kohteet."
 
 msgctxt "#31557"
 msgid "Select the information to display on the left side of the main menu system bar."
@@ -2251,11 +2251,11 @@ msgstr ""
 
 msgctxt "#31558"
 msgid "Choose what Widget 1 will display. Widget 1 is always directly above the Horizontal menu or in the center for the Vertical layout."
-msgstr ""
+msgstr "Valitse widgetin 1 sisältö. Widgetti 1 on aina heti vaakavalikon yläpuolella tai pystyasettelussa keskellä."
 
 msgctxt "#31559"
 msgid "Choose what Widget 2 will display. Widget 2 swaps location depending on the Aeon Nox main menu horizontal position. If it is low then it will be at the top of the screen and centered will be below the Horizontal menu. Vertical menu location is always near the bottom of the Home window."
-msgstr ""
+msgstr "Valitse wdigetin 2 sisältö. Widgetin 2 sijainti vaihtuu ulkoasun vaakavalikon sijainnin perusteella. Valikon ollessa alhaalla, on widgetti ruudun yläreunassa ja valikon ollessa keskellä, on widgetti sen alapuolella. Pystyvalikon kanssa sijainti on aina alareunan lähellä."
 
 msgctxt "#31560"
 msgid "This will enable a separate Widget displaying what is currently recording and/or the next scheduled timer. If Widget 2 is enabled on the same menu item then it will be hidden until focused."
@@ -2279,31 +2279,31 @@ msgstr ""
 
 msgctxt "#31565"
 msgid "Create a new backup"
-msgstr ""
+msgstr "Luo uusi varmuuskopio"
 
 msgctxt "#31566"
 msgid "Restore from previous backup"
-msgstr ""
+msgstr "Palauta aiemmasta varmuuskopiosta"
 
 msgctxt "#31567"
 msgid "Browse for backup"
-msgstr ""
+msgstr "Sella varmuuskopiota"
 
 msgctxt "#31568"
 msgid "Change settings"
-msgstr ""
+msgstr "Muuta asetuksia"
 
 msgctxt "#31569"
 msgid "Backup & Restore"
-msgstr ""
+msgstr "Varmuuskopioi ja palauta"
 
 msgctxt "#31570"
 msgid "Hide Channels"
-msgstr ""
+msgstr "Piilota kanavat"
 
 msgctxt "#31571"
 msgid "Show plots in set"
-msgstr ""
+msgstr "Näytä juonet kokoelmissa"
 
 msgctxt "#31572"
 msgid "Choose the preferred way to display movie set plot. All plots of movies in the set or the summary if available."
@@ -2315,7 +2315,7 @@ msgstr ""
 
 msgctxt "#31574"
 msgid "Preferred plot for movie sets"
-msgstr ""
+msgstr "Elokuvakokoelmissa suosittava juoni"
 
 msgctxt "#31575"
 msgid "Kodi random music video fanart"
@@ -2323,47 +2323,47 @@ msgstr ""
 
 msgctxt "#31576"
 msgid "Reboot to Android"
-msgstr ""
+msgstr "Käynnistä uudelleen Androidiin"
 
 msgctxt "#31577"
 msgid "Auto hide OSD"
-msgstr ""
+msgstr "Piilota kuvaruutuvalikko automaattisesti"
 
 msgctxt "#31578"
 msgid "Random music videos"
-msgstr ""
+msgstr "Satunnaiset musiikkivideot"
 
 msgctxt "#31579"
 msgid "Random music videos (artists)"
-msgstr ""
+msgstr "Satunnaiset musiikkivideot (esittäjät)"
 
 msgctxt "#31580"
 msgid "Recent music videos"
-msgstr ""
+msgstr "Viimeisimmät musiikkivideot"
 
 msgctxt "#31581"
 msgid "Unwatched music videos"
-msgstr ""
+msgstr "Katsomattomat musiikkivideot"
 
 msgctxt "#31582"
 msgid "Most played music videos"
-msgstr ""
+msgstr "Katsotuimmat musiikkivideot"
 
 msgctxt "#31583"
 msgid "Recently added artists"
-msgstr ""
+msgstr "Viimeksi lisätyt esittäjät"
 
 msgctxt "#31584"
 msgid "Random artists"
-msgstr ""
+msgstr "Satunnaiset esittäjät"
 
 msgctxt "#31585"
 msgid "Most played songs"
-msgstr ""
+msgstr "Kuunnelluimmat kappaleet"
 
 msgctxt "#31586"
 msgid "Prefer clean pause screen"
-msgstr ""
+msgstr "Suosi puhdasta pysäytysnäyttöä"
 
 msgctxt "#31587"
 msgid "Disable multi-search in library"
@@ -2371,7 +2371,7 @@ msgstr ""
 
 msgctxt "#31601"
 msgid "Show discart in movie information"
-msgstr "Näytä levyn kuva elokuvatiedoissa"
+msgstr "Näytä levyetiketti elokuvien tiedoissa"
 
 msgctxt "#31602"
 msgid "Show plot and cast when pressing info during video playback"
@@ -2403,7 +2403,7 @@ msgstr "Kotelot"
 
 msgctxt "#31609"
 msgid "Discart"
-msgstr "Levytaide"
+msgstr "Levyetiketti"
 
 msgctxt "#31610"
 msgid "Small Shift"
@@ -2531,7 +2531,7 @@ msgstr "Neliöjuliste"
 
 msgctxt "#31719"
 msgid "Clearlogo"
-msgstr "Clearlogo"
+msgstr "ClearLogo"
 
 msgctxt "#31720"
 msgid "Character art"
@@ -2583,7 +2583,7 @@ msgstr "Näytä vieressä"
 
 msgctxt "#31732"
 msgid "In progress movies"
-msgstr "Osittain katsotut elokuvat"
+msgstr "Keskeneräiset elokuvat"
 
 msgctxt "#31733"
 msgid "In progress episodes"
@@ -2727,7 +2727,7 @@ msgstr "Budjetti"
 
 msgctxt "#31851"
 msgid "Revenue"
-msgstr "Voitto"
+msgstr "Tuotto"
 
 msgctxt "#31852"
 msgid "Displays a larger ratings classification image with standard descriptions.[CR]Works with U.S. MPAA ratings only."
@@ -2751,7 +2751,7 @@ msgstr "Määrittää fanitaiteen vaihtonopeuden kaikkialla ulkoasussa."
 
 msgctxt "#31900"
 msgid "My rating"
-msgstr "Arvosteluni"
+msgstr "Om arvio"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"
@@ -2759,7 +2759,7 @@ msgstr "36 tunnin ennuste"
 
 msgctxt "#31902"
 msgid "Hourly Forecast"
-msgstr "Tunnittainen ennuste"
+msgstr "Tuntiennuste"
 
 msgctxt "#31903"
 msgid "Weekend Forecast"
@@ -2775,19 +2775,19 @@ msgstr "Sateen mahdollisuus"
 
 msgctxt "#31909"
 msgid "Fetching forecast info..."
-msgstr "Noudetaan ennusteen tietoja..."
+msgstr "Noudetaan ennustetietoja..."
 
 msgctxt "#31910"
 msgid "Map & Alerts"
-msgstr "Kartta ja Hälytykset"
+msgstr "Kartta ja hälytykset"
 
 msgctxt "#31911"
 msgid "Setup the Aeon Nox main menu"
-msgstr "Muokkaa päävalikon sisältöä"
+msgstr "Määritä päävalikko"
 
 msgctxt "#31912"
 msgid "Customize the main menu with widgets, backgrounds, and statistics. Add your own custom main menu items."
-msgstr ""
+msgstr "Mukauta päävalikkoa widgeteillä, taustoilla ja tilastoilla. Lisää päävalikkoon omia kohteita."
 
 msgctxt "#31913"
 msgid "Aeon Nox main menu horizontal position"
@@ -2799,51 +2799,51 @@ msgstr "Muuta päävalikon vaakasuuntaista sijaintia."
 
 msgctxt "#31915"
 msgid "Navigation style for horizontal lists"
-msgstr "Vaakasuuntaisten listojen selaustapa"
+msgstr "Vaakalistausten selaustapa"
 
 msgctxt "#31916"
 msgid "Change the way horizontal lists scroll in Aeon Nox. Default will scroll lists in a cycle. \"Fixed\" are lists with a beginning and end."
-msgstr "Vaihda vaakasuuntaisten listojen selaustapaa. Oletuksena listat ovat päättymättömiä. \"Kiinteä\" tarkoittaa listaa, jossa on alku ja loppu."
+msgstr "Muuta vaakasuuntaisten listojen selaustapaa. Oletusarvoisesti listat ovat päättymättömiä. \"Kiinteä\" tarkoittaa listaa, jossa on alku ja loppu."
 
 msgctxt "#31917"
 msgid "When enabled text scrolls automatically. When disabled manual scrolling is required. Note that not every textbox has a manual button."
-msgstr "Kun käytössä, teksti vierittyy automaattisesti. Jos poistettu käytöstä, manuaalinen vieritys on käytössä. Huomaa että kaikilla tekstilaatikoilla ei ole manuaalista painitetta."
+msgstr "Kun käytössä, vieritetään tekstejä automaattisesti. Muutoin vieritys on tehtävä manuaalisesti, joskin on syytä huomioida, ettei kaikille teksteille ole manuaalisia painikkeita."
 
 msgctxt "#31918"
 msgid "Projects the current playing video on the background behind the panels."
-msgstr "Toistettava video näkyy taustalla, paneelien takana."
+msgstr "Näyttää toistettavan videon taustana, paneelien takana."
 
 msgctxt "#31919"
 msgid "Projects the visualisation on the background behind the panels when music is played."
-msgstr "Toistettaessa musiikkia, visualisointi näkyy taustalla, paneelien takana."
+msgstr "Näyttää toistettavan musiikin visualisoinnin taustana, paneelien takana."
 
 msgctxt "#31920"
 msgid "Displays a widget on the Home screen with media information when music is playing."
-msgstr "Näyttää toistettavan musiikin mediatiedot päävalikon widgetissä."
+msgstr "Näyttää päävalikossa widgetin toistettavan musiikin tiedoilla."
 
 msgctxt "#31921"
 msgid "Displays a widget on the Home screen with media information when a movie or episode is playing."
-msgstr "Näyttää toistettavan elokuvan tai jakson mediatiedot päävalikon widgetissä."
+msgstr "Näyttää päävalikossa widgetin toistettavan elokuvan tai jakson tiedoilla."
 
 msgctxt "#31922"
 msgid "This enables custom genre backgrounds when browsing through the videolibrary's genre node. Filenames should match the genre label. Extension must be .jpg."
-msgstr "Ottaa käyttöön mukautetut taustakuvat videokirjaston lajityyppejä selatessa. Tiedostonimien tulisi vastata lajityypin nimikettä. Tiedostopäätteen täytyy olla .jpg."
+msgstr "Ottaa videokirjaston lajityyppejä selattaessa näytettävät, mukautetut lajityyppikohtaiset taustat käyttöön. Tiedostonimien tulee vastata lajityypin nimeä. Tiedostopäätteen tulee olla .jpg."
 
 msgctxt "#31924"
 msgid "This enables custom genre backgrounds when browsing through the musiclibrary's genre node. Filenames should match the genre label. Extension must be .jpg."
-msgstr "Ottaa käyttöön mukautetut taustakuvat musiikkikirjaston lajityyppejä selatessa. Tiedostonimien tulisi vastata lajityypin nimikettä. Tiedostopäätee täytyy olla .jpg."
+msgstr "Ottaa musiikkikirjaston lajityyppejä selattaessa näytettävät, mukautetut lajityyppikohtaiset taustat käyttöön. Tiedostonimien tulee vastata lajityypin nimeä. Tiedostopäätteen tulee olla .jpg."
 
 msgctxt "#31925"
 msgid "Choose what to display for the menu items background."
-msgstr ""
+msgstr "Määritä mitä näytetään valikkokohteen taustana."
 
 msgctxt "#31926"
 msgid "Select library paths, add-ons, playlists or favourites as your menu item."
-msgstr ""
+msgstr "Valitse valikkokohteeksi kirjastosijainnit, lisäosat, toistolistat tai suosikit."
 
 msgctxt "#31927"
 msgid "Resets all above values to their defaults."
-msgstr "Palauta oletusarvot."
+msgstr "Palauta ylläolevien valintojen oletusarvot."
 
 msgctxt "#31928"
 msgid "Aeon Nox main menu layout"
@@ -2851,7 +2851,7 @@ msgstr "Päävalikon asettelu"
 
 msgctxt "#31929"
 msgid "This setting defines the main menu layout. Options are 5 items, 3 items, 1 items, or icons for the default horizontal menu. You can also choose a vertical menu layout."
-msgstr "Tämä asetus määrittää päävalikon asettelun. Voit valita vaakasuuntaisen valikon, jossa näytetään kuvakkeet tai 5, 3, tai 1 nimikettä. Voit myös valita pystysuuntaisen valikon."
+msgstr "Määrittää päävalikon asettelun. Voit valita vaakavalikon kuvakkeilla tai 5, 3, tai 1 kohdetta. Voit valita myös pystysuuntaisen valikkoasettelun."
 
 msgctxt "#31930"
 msgid "Choose a widget to display on the Home screen to have easy access to content from the library."
@@ -2859,7 +2859,7 @@ msgstr "Valitse päävalikossa näytettävä widgetti. Se mahdollistaa helpon p�
 
 msgctxt "#31931"
 msgid "Video plot preference"
-msgstr "Juonen esitystapa"
+msgstr "Videon juonen esitystapa"
 
 msgctxt "#31932"
 msgid "Show plot outline in the library views and full plot in the video information dialog or vice versa. Falls back to full plot if no outline is available."
@@ -2867,7 +2867,7 @@ msgstr "Näytä juonen pääpiirteet kirjaston näkymissä ja täysi juoni video
 
 msgctxt "#31933"
 msgid "Select an item to display on the left top of the main menu"
-msgstr "Valitse, mitä tietoja näytetään päävalikon vasemmassa ylänurkassa."
+msgstr "Valitse päävalikossa ylävasemmalla näytettävä kohde"
 
 msgctxt "#31935"
 msgid "Switch places with another menu item. Opens a dialog with a list of menu items to choose from."
@@ -2883,7 +2883,7 @@ msgstr "Näyttää tv-sarjojen lisätietoja mediakirjastossa. Sisältää tv-sar
 
 msgctxt "#31939"
 msgid "Hide Infopanel on scrolling"
-msgstr "Piilota Infopaneeli vieritettäessä"
+msgstr "Piilota infopaneeli vieritettäessä"
 
 msgctxt "#31940"
 msgid "Hides the infopanel while scrolling through the library. Set the amount of seconds to wait for the infopanel to appear when scrolling has stopped."
@@ -2899,7 +2899,7 @@ msgstr ""
 
 msgctxt "#31943"
 msgid "Watched status indicator"
-msgstr "Katsottu-osoitin"
+msgstr "Katsotantilan indikaattori"
 
 msgctxt "#31944"
 msgid "Choose which overlays to show on thumbs in icon based views. Note that the \"Resume\" flag takes precedent over any watched status. After activating an overlay you must also enable it in each views settings. "
@@ -2907,7 +2907,7 @@ msgstr ""
 
 msgctxt "#31945"
 msgid "This toggles the layout of the List view. Default is a 7 item layout with extended info, \"Slim List\" is a 14 item, more basic layout"
-msgstr "Vaihtaa listanäkymän asettelua. Oletuksena näytetään 7 kohdetta lisätietoineen. \"Matala Lista\" näyttää 14 kohdetta vähemmillä lisätiedoilla."
+msgstr "Vaihtaa listanäkymän asettelua. Oletus on 7 nimikkeen asettelu lisätietoineen. \"Tiivis lista\" näyttää vähemmän tietoja, mutta näyttää 14 nimikettä."
 
 msgctxt "#31950"
 msgid "WEATHER"
@@ -2919,7 +2919,7 @@ msgstr "KUVAT"
 
 msgctxt "#31952"
 msgid "LIVE TV"
-msgstr "TV"
+msgstr "TELEVISIO"
 
 msgctxt "#31953"
 msgid "VIDEOS"
@@ -2931,7 +2931,7 @@ msgstr "ELOKUVAT"
 
 msgctxt "#31955"
 msgid "TV SHOWS"
-msgstr "TV-SARJAT"
+msgstr "SARJAT"
 
 msgctxt "#31956"
 msgid "MUSIC"
@@ -2955,7 +2955,7 @@ msgstr "KONSERTIT"
 
 msgctxt "#31961"
 msgid "Hide ratings in list views"
-msgstr "Piilota arvosanat listanäkymissä"
+msgstr "Piilota arviot listanäkymissä"
 
 msgctxt "#31962"
 msgid "This toggles the visibility of ratings in views of type List, LowList and TriPanel, except if sorted by rating."
@@ -2987,7 +2987,7 @@ msgstr "Piilota visualisointi fanitaiteen taakse (toimii parhaiten waveformin ka
 
 msgctxt "#31972"
 msgid "Autoplay music in fullscreen"
-msgstr "Toista musiikki automaattisesti kokoruututilassa"
+msgstr "Toista musiikki automaattisesti koko ruudussa"
 
 msgctxt "#31973"
 msgid "Mod delay"
@@ -2999,7 +2999,7 @@ msgstr "Valitse kaikissä näkymissä käytettävien koteloiden tyyli"
 
 msgctxt "#31975"
 msgid "Use colored icons and mediaflags"
-msgstr "Käytä värillisiä kuvakkeita ja mediakuvakkeita"
+msgstr "Käytä värillisiä kuvakkeita ja mediatunnisteita"
 
 msgctxt "#31978"
 msgid "Reset main menu items to their defaults"
@@ -3007,7 +3007,7 @@ msgstr "Palauta päävalikon oletusasetukset"
 
 msgctxt "#31979"
 msgid "Sliding set discart"
-msgstr "Liukuva elokuvaryhmien discart"
+msgstr "Liukuva elokuvaryhmien levyetiketti"
 
 msgctxt "#31980"
 msgid "Change the way the home menu scrolls in Aeon Nox. Default will scroll in a cycle. \"Fixed\" has a beginning and end."
@@ -3019,7 +3019,7 @@ msgstr "Näytä juoni- ja näyttelijätiedot kokoruudun infonäkymässä."
 
 msgctxt "#31982"
 msgid "Display discart for  movies in information screen."
-msgstr "Näytä elokuvien levytaide infoikkunassa."
+msgstr "Näytä elokuvien levyetiketti tietoruudussa."
 
 msgctxt "#31983"
 msgid "Swap locations of Trailer and Cinema Experience buttons. Location is either in extras (+) or in the info dialog."
@@ -3027,7 +3027,7 @@ msgstr "Vaihda traileri- ja Cinema Experience -painikkeiden sijaintia. Sijaitsee
 
 msgctxt "#31984"
 msgid "When activated the default mediaflags and icons are changed to colored versions"
-msgstr "Muuttaa mediakuvakkeet värillisiksi."
+msgstr "Kun käytössä, vaihdetaan mediatunnisteet ja kuvakkeet värillisiin versioihin"
 
 msgctxt "#31986"
 msgid "Select case style used in all views. Default or clear cases."
@@ -3035,15 +3035,15 @@ msgstr "Valitse käytettävä kotelotyyli. Oletus tai läpinäkyvät kotelot."
 
 msgctxt "#31987"
 msgid "Enable this setting to hide the \"Disable views\" button in the sidemenu."
-msgstr "Piilottaa \"Poista näkymiä\"-painikkeen sivuvalikosta."
+msgstr "Piilottaa sivuvalikon \"Poista näkymiä käytöstä\" -painikkeen."
 
 msgctxt "#31988"
 msgid "Enable setting to animate backgrounds for views and the homescreen"
-msgstr "Käyttää taustakuvien animointeja päävalikossa ja kirjastonäkymissä."
+msgstr "Ottaa päävalikon ja kirjastonäkymien taustojen animoinnin käyttöön."
 
 msgctxt "#31989"
 msgid "Animate backgrounds"
-msgstr "Animoidut taustakuvat"
+msgstr "Animoidut taustat"
 
 msgctxt "#31990"
 msgid "Choose where the CinemaVision button should be placed"
@@ -3059,11 +3059,11 @@ msgstr "Muuta paneelityylin asettelua. Valitse tiiviin ja laajennetun väliltä.
 
 msgctxt "#31993"
 msgid "Fake discart"
-msgstr "Keinotekoinen levytaide"
+msgstr "Epäaito levyetiketti"
 
 msgctxt "#31994"
 msgid "Vertical Menu"
-msgstr "Pystysuuntainen valikko"
+msgstr "Pystyvalikko"
 
 #~ msgctxt "#31332"
 #~ msgid "Not Installed"
