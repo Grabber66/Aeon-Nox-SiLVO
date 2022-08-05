@@ -268,6 +268,31 @@
 				<height>34</height>
 				<texture border="30,2,30,20">dialog_bottom2.png</texture>
 			</control>
+			<control type="image" id="19">
+				<description>sleepy.watchdog cancel</description>
+				<width>510</width>
+				<height>60</height>
+				<textcolor>grey2</textcolor>
+				<focusedcolor>white</focusedcolor>
+				<textwidth>435</textwidth>
+				<textoffsetx>45</textoffsetx>
+				<texturefocus colordiffuse="$VAR[HighlightBarColor]" border="35,2,35,2">button_shutdown_focus.png</texturefocus>
+				<onclick>RunAddon(service.sleepy.watchdog)</onclick>
+				<onclick>dialog.close(all,true)</onclick>
+				<visible>!System.HasAlarm(shutdowntimer) + System.AddonIsEnabled(service.sleepy.watchdog)</visible>
+			</control>
+			<control type="image" id="20">
+				<description>sleepy.watchdog cancel</description>
+				<width>510</width>
+				<height>60</height>
+				<textcolor>grey2</textcolor>
+				<focusedcolor>white</focusedcolor>
+				<textwidth>435</textwidth>
+				<textoffsetx>45</textoffsetx>
+				<texturefocus colordiffuse="$VAR[HighlightBarColor]" border="35,2,35,2">button_shutdown_focus.png</texturefocus>
+				<onclick>CancelAlarm(shutdowntimer)</onclick>
+				<visible>System.HasAlarm(shutdowntimer) + !System.AddonIsEnabled(service.sleepy.watchdog)</visible>
+			</control>
 		</control>
 	</controls>
 </window>
