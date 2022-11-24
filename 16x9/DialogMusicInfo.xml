@@ -770,22 +770,20 @@
 						<align>right</align>
 						<orientation>horizontal</orientation>
 						<control type="button" id="5010">
-							<description>Get Thumb</description>
-							<font>IconMediumMD</font>
-							<width>70</width>
-							<texturenofocus />
-							<include>ButtonInfoDialogsCommonValues</include>
-							<label></label>
-							<onclick>SendClick(10)</onclick>
-							<enable>!Skin.HasSetting(KioskMode.Enabled)</enable>
-						</control>
-						<control type="button" id="5012">
-							<description>Get Fanart</description>
 							<font>IconMediumMD</font>
 							<width>70</width>
 							<texturenofocus />
 							<include>ButtonInfoDialogsCommonValues</include>
 							<label></label>
+							<onclick>SendClick(10)</onclick>
+							<enable>!Skin.HasSetting(KioskMode.Enabled)</enable>
+						</control>
+						<control type="button" id="5012">
+							<font>IconMediumMD</font>
+							<width>70</width>
+							<texturenofocus />
+							<include>ButtonInfoDialogsCommonValues</include>
+							<label></label>
 							<onclick>SendClick(12)</onclick>
 							<enable>!Skin.HasSetting(KioskMode.Enabled)</enable>
 							<visible>Control.IsVisible(12) + !String.IsEqual(ListItem.DBTYPE,song)</visible>
