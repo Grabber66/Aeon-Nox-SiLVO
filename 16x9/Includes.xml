@@ -3698,7 +3698,7 @@
 			<control type="image">
 				<left>17</left>
 				<width>1885</width>
-				<height>720</height>
+				<height>780</height>
 				<texture border="40">dialogs/default/bg.png</texture>
 				<animation effect="fade" end="85" condition="true">Conditional</animation>
 				<visible>[String.IsEmpty(VideoPlayer.PlotOutline) | String.IsEqual(VideoPlayer.PlotOutline,N/A)] | String.IsEmpty(Window(fullscreeninfo).Property(LiveTVFullPlot))</visible>
@@ -3706,39 +3706,38 @@
 			<control type="grouplist">
 				<top>50</top>
 				<left>57</left>
-				<height>650</height>
+				<height>710</height>
 				<width>1805</width>
 				<itemgap>10</itemgap>
 				<control type="label">
-					<height>30</height>
-					<font>font16</font>
-					<textcolor>$VAR[ThemeLabelColor]</textcolor>
-					<label>$INFO[VideoPlayer.ChannelName]</label>
+					<height>55</height>
+					<font>font48_bold</font>
+					<label>[COLOR $VAR[ThemeLabelColor]]$INFO[VideoPlayer.ChannelNumberLabel]:[/COLOR] $INFO[VideoPlayer.Title]</label>
 				</control>
 				<control type="label">
 					<width>auto</width>
-					<height>55</height>
-					<font>font48_bold</font>
+					<height>30</height>
+					<font>font16</font>
 					<scroll>true</scroll>
 					<label>$INFO[VideoPlayer.Season,$LOCALIZE[20373] ,: ]$INFO[VideoPlayer.Episode,$LOCALIZE[20359] , - ]$INFO[VideoPlayer.EpisodeName]</label>
 					<visible>String.IsEmpty(Window(fullscreeninfo).Property(LiveTVNext))</visible>
 				</control>
 				<control type="grouplist">
 					<width>1805</width>
-					<height>55</height>
+					<height>30</height>
 					<itemgap>50</itemgap>
 					<orientation>horizontal</orientation>
 					<visible>!String.IsEmpty(Window(fullscreeninfo).Property(LiveTVNext))</visible>
 					<control type="label">
 						<width>auto</width>
-						<height>55</height>
-						<font>font48</font>
+						<height>30</height>
+						<font>font16</font>
 						<scroll>true</scroll>
-						<label>[B][COLOR $VAR[ThemeLabelColor]]$LOCALIZE[19031]:[/COLOR] $INFO[VideoPlayer.NextTitle][/B]</label>
+						<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[19031]:[/COLOR] $INFO[VideoPlayer.NextTitle]</label>
 					</control>
 					<control type="label">
 						<width>auto</width>
-						<height>65</height>
+						<height>30</height>
 						<font>font15</font>
 						<scroll>true</scroll>
 						<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[180]:[/COLOR] $INFO[VideoPlayer.NextDuration]</label>
@@ -3790,7 +3789,7 @@
 					</control>
 					<control type="textbox">
 						<width>1805</width>
-						<height>774</height>
+						<height>834</height>
 						<label>$INFO[VideoPlayer.Plot]</label>
 						<autoscroll delay="6000" time="3000" repeat="6000">true</autoscroll>
 						<visible>String.IsEmpty(Window(fullscreeninfo).Property(LiveTVFullPlot))</visible>
@@ -3814,7 +3813,7 @@
 					</control>
 					<control type="textbox">
 						<width>1805</width>
-						<height>774</height>
+						<height>834</height>
 						<label>$INFO[VideoPlayer.NextPlot]</label>
 						<autoscroll delay="6000" time="3000" repeat="6000">true</autoscroll>
 						<visible>String.IsEmpty(Window(fullscreeninfo).Property(LiveTVFullPlot))</visible>
